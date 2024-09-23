@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+}
+header{
+    
+    padding-bottom: 60px;
+}
+nav {
+    display: flex;
+    background-color: beige;
+  
+}
+nav ul {
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li button {
+    color: rgb(152, 160, 90);
+    background-color: rgb(255, 255, 255);
+    font-size: larger;
+    padding: 10px 20px;
+    border: none;
+}
+nav ul li button:hover{
+    background-color: darkblue !important;
+    color: white;
+}
+
+.parte-uno{
+    background-image: url(barco.jpg);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 300px;
+    
+}
+.texto{
+    display: grid;
+    place-items: center;
+    width: 300px;
+    height: 60%;
+    padding: 40px;
+    background-color: #909d04a9;
+}
+
+.parte-dos{
+    display: flex;
+    padding: 20px ;
+}
+
+.uno{
+    width: 30%;
+    background-image: url(h.jpg);
+    height: 150px;
+    padding-top: 200px;
+    padding-left: 5px;
+    
+}
+.dos{
+    background-image: url(th\ .jpg);
+    width: 65%;
+    height: 200px;
+    padding-top: 150px;
+    padding-left: 5px;
+
+}
+.contenedor{
+    background-color:rgb(19, 71, 99);
+}
+.contenedor h1{
+    color: #914600 ;
+}
+.contenedor-2{
+    display: flex;
+    padding: 30px;
+}
+
+.tridente{
+    display: flex;
+    justify-content: space-around;
+}
+.uno1{
+    background-color: #c0c0c052;
+    width: 300px;
+    height: 100px;
+    padding: 20px;
+    padding-top:150px;
+    background-image: url(b.jpg);
+
+}
+.dos2{
+    background-color: #0b2ea07e;
+    width: 300px;
+    height: 100px;
+    padding: 20px;
+    padding-top:150px;
+    background-image: url(pais.jpg);
+}
+.tres3{
+    background-color: rgba(188, 103, 103, 0.486);
+    width: 300px;
+    height: 100px;
+    padding: 20px;
+    padding-top:150px;
+    background-image: url(defensor.jpg);
+}
+footer{
+    background-color: rgb(60, 71, 72);
+    display: grid;
+    justify-items: flex-start;
+    align-items: center;
+}
